@@ -8,7 +8,7 @@ Repository purpose: inherited GitHub organisation profile, community-health defa
 
 - Organisation Chart / Business Structure / Repository Map / Repository Pre-Structure → [`tbhrc/org`](https://github.com/tbhrc/org).
 - Reusable HOW / lifecycle method / canonical FolderDesk operating instructions → [`tbhrc/skills`](https://github.com/tbhrc/skills).
-- GitHub organisation profile, default issue/PR templates, CODEOWNERS/community-health defaults, organisation-level Copilot/custom-instruction delivery source, and organisation custom-agent distribution surfaces → stay here.
+- GitHub organisation profile, default issue/PR templates, community-health defaults, organisation-level Copilot/custom-instruction delivery source, and organisation custom-agent distribution surfaces → stay here.
 - Current organisation custom-instruction source → [`ORGANIZATION-CUSTOM-INSTRUCTIONS.md`](ORGANIZATION-CUSTOM-INSTRUCTIONS.md); it points to the canonical [FolderDesk Master Prompt](https://github.com/tbhrc/skills/blob/main/governance/folderdesk-master-prompt.md) rather than duplicating it.
 - Repository-specific override → owning repository only when a real local difference is required.
 
