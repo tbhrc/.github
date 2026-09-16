@@ -5,13 +5,14 @@ Repository purpose: inherited GitHub organisation profile, community-health defa
 ## Route
 
 - Organisation structure / business map / repository navigation → [`tbhrc/workspace`](https://github.com/tbhrc/workspace).
-- Reusable HOW / lifecycle method / canonical FolderDesk operating instructions → [`tbhrc/skills`](https://github.com/tbhrc/skills) until the dedicated Skills-canon cutover is completed.
+- Organisation-wide operating instructions → [`tbhrc/workspace/AGENTS.md`](https://github.com/tbhrc/workspace/blob/main/AGENTS.md).
+- Reusable HOW / lifecycle method / canonical FolderDesk operating instructions → [`tbhrc/workspace/.folderdesk/skills`](https://github.com/tbhrc/workspace/tree/main/.folderdesk/skills), normally through the authorised `skills-mcp` discovery/read path when specialist HOW is required.
 - GitHub organisation profile, default issue/PR templates, community-health defaults, organisation-level Copilot/custom-instruction delivery source, and organisation custom-agent distribution surfaces → stay here.
-- Current organisation custom-instruction source → [`ORGANIZATION-CUSTOM-INSTRUCTIONS.md`](ORGANIZATION-CUSTOM-INSTRUCTIONS.md); it points to the canonical [FolderDesk Master Prompt](https://github.com/tbhrc/skills/blob/main/governance/folderdesk-master-prompt.md) rather than duplicating it.
+- Current organisation custom-instruction source → [`ORGANIZATION-CUSTOM-INSTRUCTIONS.md`](ORGANIZATION-CUSTOM-INSTRUCTIONS.md); it points to the Workspace master router rather than duplicating organisation policy.
 - Repository-specific override → owning repository only when a real local difference is required.
 
 ## Rule
 
-**Own inherited GitHub defaults once; do not copy them across repositories.** Treat GitHub organisation settings and `.github` distribution surfaces as delivery/inheritance layers, not second editable canon. Organisation-wide structure is owned by `tbhrc/workspace`. Reusable operating logic remains in `tbhrc/skills` until the dedicated Skills-canon migration is verified and cut over; this repository owns the GitHub-platform mechanism that distributes or applies it where supported.
+**Own inherited GitHub defaults once; do not copy them across repositories.** Treat GitHub organisation settings and `.github` distribution surfaces as delivery/inheritance layers, not second editable canon. Organisation-wide structure and routing are owned by `tbhrc/workspace`; reusable operating HOW is owned by `tbhrc/workspace/.folderdesk/skills/`. `tbhrc/skills` is retired provenance/compatibility only.
 
-**Fast links:** [FolderDesk organisation instructions](ORGANIZATION-CUSTOM-INSTRUCTIONS.md) · [FolderDesk Master Prompt](https://github.com/tbhrc/skills/blob/main/governance/folderdesk-master-prompt.md) · [Workspace](https://github.com/tbhrc/workspace) · [Workspace migration plan](https://github.com/tbhrc/workspace/blob/main/MIGRATION-PLAN.md) · [Skills](https://github.com/tbhrc/skills)
+**Fast links:** [Organisation instructions](ORGANIZATION-CUSTOM-INSTRUCTIONS.md) · [Workspace master router](https://github.com/tbhrc/workspace/blob/main/AGENTS.md) · [Workspace](https://github.com/tbhrc/workspace) · [Workspace migration plan](https://github.com/tbhrc/workspace/blob/main/MIGRATION-PLAN.md) · [Skill Bank](https://github.com/tbhrc/workspace/tree/main/.folderdesk/skills)
