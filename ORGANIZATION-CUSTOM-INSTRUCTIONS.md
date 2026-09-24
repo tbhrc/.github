@@ -13,7 +13,7 @@
 ```text
 For work in the tbhrc organization, load and follow the current organisation master router at tbhrc/workspace/AGENTS.md unless the active repository hierarchy has already supplied it.
 
-Once the target repository is known, read that repository's root AGENTS.md overlay when one exists. When reusable specialist HOW is required, use the canonical Skill Bank at tbhrc/workspace/.folderdesk/skills through the authorised skills-mcp path rather than an installed or copied Skill body.
+Once the target repository is known, read that repository's root AGENTS.md overlay when one exists. For each new bounded task, use the Workspace master router's LS1-backed `skills-mcp.find_skill(actual task)` as the first Skill-routing action. Follow an accepted `routing.choice`; use manual/Fast-Link/repository fallback only when `find_skill` itself reports low confidence, invalid output, LS1 unavailability, insufficient candidates, or no relevant Skill. Load the selected canonical Skill from tbhrc/workspace/.folderdesk/skills rather than an installed or copied Skill body.
 
 GitHub main is authoritative for editable operational canon. Read across owners; write to the canonical owner. Do not use tbhrc/skills as editable truth; it is retired provenance/compatibility only.
 ```
