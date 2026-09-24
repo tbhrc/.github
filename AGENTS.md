@@ -6,7 +6,7 @@ Repository purpose: inherited GitHub organisation profile, community-health defa
 
 - Organisation structure / business map / repository navigation → [`tbhrc/workspace`](https://github.com/tbhrc/workspace).
 - Organisation-wide operating instructions → [`tbhrc/workspace/AGENTS.md`](https://github.com/tbhrc/workspace/blob/main/AGENTS.md).
-- Reusable HOW / lifecycle method / canonical FolderDesk operating instructions → [`tbhrc/workspace/.folderdesk/skills`](https://github.com/tbhrc/workspace/tree/main/.folderdesk/skills), normally through the authorised `skills-mcp` discovery/read path when specialist HOW is required.
+- Reusable HOW / lifecycle method / canonical FolderDesk operating instructions → [`tbhrc/workspace/.folderdesk/skills`](https://github.com/tbhrc/workspace/tree/main/.folderdesk/skills), through the Workspace master router's mandatory LS1-backed `skills-mcp.find_skill(actual task)` path for each new bounded task; manual/Fast-Link discovery is fallback only when `find_skill` reports a fallback state.
 - GitHub organisation profile, default issue/PR templates, community-health defaults, organisation-level Copilot/custom-instruction delivery source, and organisation custom-agent distribution surfaces → stay here.
 - Current organisation custom-instruction source → [`ORGANIZATION-CUSTOM-INSTRUCTIONS.md`](ORGANIZATION-CUSTOM-INSTRUCTIONS.md); it points to the Workspace master router rather than duplicating organisation policy.
 - Repository-specific override → owning repository only when a real local difference is required.
